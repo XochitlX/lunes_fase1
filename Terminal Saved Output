@@ -1,0 +1,2858 @@
+Last login: Thu May 25 08:49:54 on console
+CodeaCamp05s-Mac-mini:~ codea_mac_05$ cd desktop
+CodeaCamp05s-Mac-mini:desktop codea_mac_05$ cd xochitl
+CodeaCamp05s-Mac-mini:xochitl codea_mac_05$ cd Fase1
+CodeaCamp05s-Mac-mini:Fase1 codea_mac_05$ cd jueves
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ls
+gato.rb		prueba_hash.rb	sopa.rb
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  o o o  |
+|  x o x  |
+|  x x o  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa.rb
+
+ P  O  E  M  A 
+ Q  C  W  A  G 
+ K  A  K  W  S 
+ L  N  U  A  A 
+ T  C  M  H  D 
+ H  I  M  A  N 
+ R  O  G  M  O 
+ I  N  T  E  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa.rb
+
+ P  O  E  M  A 
+ O  C  A  W  J 
+ H  A  R  U  S 
+ Q  N  Y  A  A 
+ W  C  M  N  D 
+ K  I  E  Z  N 
+ R  O  A  C  O 
+ I  N  P  P  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa.rb
+
+ P  O  E  M  A 
+ F  C  U  D  N 
+ E  A  Y  V  S 
+ V  N  Y  A  A 
+ Z  C  M  Z  D 
+ O  I  Q  N  N 
+ R  O  R  S  O 
+ M  N  R  K  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ F  C  S  E  R 
+ Y  A  S  I  S 
+ W  N  G  A  A 
+ Z  C  M  C  D 
+ C  I  B  A  N 
+ R  O  W  V  O 
+ N  N  K  O  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P ["P"]
+ O ["P", "O"]
+ E ["P", "O", "E"]
+ M ["P", "O", "E", "M"]
+ A ["P", "O", "E", "M", "A"]
+
+ K ["P", "O", "E", "M", "A", "K"]
+ C ["P", "O", "E", "M", "A", "K", "C"]
+ D ["P", "O", "E", "M", "A", "K", "C", "D"]
+ S ["P", "O", "E", "M", "A", "K", "C", "D", "S"]
+ Q ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q"]
+
+ U ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U"]
+ A ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A"]
+ R ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R"]
+ J ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J"]
+ S ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S"]
+
+ H ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H"]
+ N ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N"]
+ T ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T"]
+ A ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A"]
+ A ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A"]
+
+ D ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D"]
+ C ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C"]
+ M ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M"]
+ P ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P"]
+ D ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D"]
+
+ N ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N"]
+ I ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I"]
+ Z ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z"]
+ U ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U"]
+ N ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N"]
+
+ R ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R"]
+ O ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O"]
+ V ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V"]
+ L ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L"]
+ O ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L", "O"]
+
+ L ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L", "O", "L"]
+ N ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L", "O", "L", "N"]
+ E ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L", "O", "L", "N", "E"]
+ P ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L", "O", "L", "N", "E", "P"]
+ R ["P", "O", "E", "M", "A", "K", "C", "D", "S", "Q", "U", "A", "R", "J", "S", "H", "N", "T", "A", "A", "D", "C", "M", "P", "D", "N", "I", "Z", "U", "N", "R", "O", "V", "L", "O", "L", "N", "E", "P", "R"]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+["P"]
+
+ O  E  M  A ["P", "L"]
+
+ C  G  L  K ["P", "L", "E"]
+
+ A  M  R  S ["P", "L", "E", "I"]
+
+ N  D  A  A ["P", "L", "E", "I", "W"]
+
+ C  M  Y  D ["P", "L", "E", "I", "W", "J"]
+
+ I  E  H  N ["P", "L", "E", "I", "W", "J", "R"]
+
+ O  U  Y  O ["P", "L", "E", "I", "W", "J", "R", "W"]
+
+ N  I  H  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ O  E  M  A 
+ C  T  F  O 
+ A  I  A  S 
+ N  B  A  A 
+ C  M  Y  D 
+ I  J  I  N 
+ O  S  U  O 
+ N  C  Y  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ V  C  P  D  F 
+ R  A  W  L  S 
+ R  N  R  A  A 
+ R  C  M  J  D 
+ K  I  G  O  N 
+ R  O  O  Y  O 
+ F  N  Y  J  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+["P"]
+ P ["P", "O"]
+ O ["P", "O", "E"]
+ E ["P", "O", "E", "M"]
+ M ["P", "O", "E", "M", "A"]
+ A 
+["P", "O", "E", "M", "A", "H"]
+ H ["P", "O", "E", "M", "A", "H", "C"]
+ C ["P", "O", "E", "M", "A", "H", "C", "L"]
+ L ["P", "O", "E", "M", "A", "H", "C", "L", "J"]
+ J ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D"]
+ D 
+["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y"]
+ Y ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A"]
+ A ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q"]
+ Q ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R"]
+ R ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S"]
+ S 
+["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I"]
+ I ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N"]
+ N ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z"]
+ Z ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A"]
+ A ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A"]
+ A 
+["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y"]
+ Y ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C"]
+ C ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M"]
+ M ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z"]
+ Z ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D"]
+ D 
+["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T"]
+ T ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I"]
+ I ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G"]
+ G ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q"]
+ Q ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N"]
+ N 
+["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R"]
+ R ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O"]
+ O ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F"]
+ F ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z"]
+ Z ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z", "O"]
+ O 
+["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z", "O", "C"]
+ C ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z", "O", "C", "N"]
+ N ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z", "O", "C", "N", "C"]
+ C ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z", "O", "C", "N", "C", "H"]
+ H ["P", "O", "E", "M", "A", "H", "C", "L", "J", "D", "Y", "A", "Q", "R", "S", "I", "N", "Z", "A", "A", "Y", "C", "M", "Z", "D", "T", "I", "G", "Q", "N", "R", "O", "F", "Z", "O", "C", "N", "C", "H", "R"]
+ R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ M  C  M  W  I ["P", "O", "E", "M", "A", "M", "C", "M", "W", "I"]
+
+ R  A  J  M  S ["P", "O", "E", "M", "A", "M", "C", "M", "W", "I", "R", "A", "J", "M", "S"]
+
+ C  N  A  A  A ["P", "O", "E", "M", "A", "M", "C", "M", "W", "I", "R", "A", "J", "M", "S", "C", "N", "A", "A", "A"]
+
+ K  C  M  A  D ["P", "O", "E", "M", "A", "M", "C", "M", "W", "I", "R", "A", "J", "M", "S", "C", "N", "A", "A", "A", "K", "C", "M", "A", "D"]
+
+ L  I  P  F  N ["P", "O", "E", "M", "A", "M", "C", "M", "W", "I", "R", "A", "J", "M", "S", "C", "N", "A", "A", "A", "K", "C", "M", "A", "D", "L", "I", "P", "F", "N"]
+
+ R  O  S  C  O ["P", "O", "E", "M", "A", "M", "C", "M", "W", "I", "R", "A", "J", "M", "S", "C", "N", "A", "A", "A", "K", "C", "M", "A", "D", "L", "I", "P", "F", "N", "R", "O", "S", "C", "O"]
+
+ L  N  L  C  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ T  C  O  L  I ["T", "C", "O", "L", "I"]
+
+ J  A  I  T  S ["J", "A", "I", "T", "S"]
+
+ W  N  M  A  A ["W", "N", "M", "A", "A"]
+
+ E  C  M  B  D ["E", "C", "M", "B", "D"]
+
+ M  I  F  A  N ["M", "I", "F", "A", "N"]
+
+ R  O  K  W  O ["R", "O", "K", "W", "O"]
+
+ N  N  R  G  R 
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ O  C  E  Y  I ["O", "C", "E", "Y", "I"]
+
+ Y  A  Z  G  S ["Y", "A", "Z", "G", "S"]
+
+ D  N  U  A  A ["D", "N", "U", "A", "A"]
+
+ K  C  M  S  D ["K", "C", "M", "S", "D"]
+
+ C  I  Y  Z  N ["C", "I", "Y", "Z", "N"]
+
+ R  O  K  A  O ["R", "O", "K", "A", "O"]
+
+ E  N  L  Q  R [[], ["P", "O", "E", "M", "A"], ["O", "C", "E", "Y", "I"], ["Y", "A", "Z", "G", "S"], ["D", "N", "U", "A", "A"], ["K", "C", "M", "S", "D"], ["C", "I", "Y", "Z", "N"], ["R", "O", "K", "A", "O"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ H  C  R  R  T ["H", "C", "R", "R", "T"]
+
+ F  A  Q  A  S ["F", "A", "Q", "A", "S"]
+
+ K  N  H  A  A ["K", "N", "H", "A", "A"]
+
+ T  C  M  R  D ["T", "C", "M", "R", "D"]
+
+ P  I  R  I  N ["P", "I", "R", "I", "N"]
+
+ R  O  P  Q  O ["R", "O", "P", "Q", "O"]
+
+ H  N  M  H  R [[], ["P", "O", "E", "M", "A"], ["H", "C", "R", "R", "T"], ["F", "A", "Q", "A", "S"], ["K", "N", "H", "A", "A"], ["T", "C", "M", "R", "D"], ["P", "I", "R", "I", "N"], ["R", "O", "P", "Q", "O"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+["P", "O", "E", "M", "A"]
+
+["M", "C", "U", "I", "T"]
+
+["A", "A", "C", "C", "S"]
+
+["V", "N", "J", "A", "A"]
+
+["S", "C", "M", "R", "D"]
+
+["W", "I", "K", "F", "N"]
+
+["R", "O", "Q", "I", "O"]
+
+ R [[], ["P", "O", "E", "M", "A"], ["M", "C", "U", "I", "T"], ["A", "A", "C", "C", "S"], ["V", "N", "J", "A", "A"], ["S", "C", "M", "R", "D"], ["W", "I", "K", "F", "N"], ["R", "O", "Q", "I", "O"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+[]
+
+ R [[], [], [], [], [], [], [], []]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ A  C  Z  Q  E ["A", "C", "Z", "Q", "E"]
+
+ I  A  D  P  S ["I", "A", "D", "P", "S"]
+
+ Y  N  Y  A  A ["Y", "N", "Y", "A", "A"]
+
+ W  C  M  Y  D ["W", "C", "M", "Y", "D"]
+
+ S  I  U  O  N ["S", "I", "U", "O", "N"]
+
+ R  O  B  K  O ["R", "O", "B", "K", "O"]
+
+ A  N  E  D  R [[], ["P", "O", "E", "M", "A"], ["A", "C", "Z", "Q", "E"], ["I", "A", "D", "P", "S"], ["Y", "N", "Y", "A", "A"], ["W", "C", "M", "Y", "D"], ["S", "I", "U", "O", "N"], ["R", "O", "B", "K", "O"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+ P  O  E  M ["P", "O", "E", "M"]
+
+ A  T  C  L  T ["A", "T", "C", "L", "T"]
+
+ G  Q  A  L  T ["G", "Q", "A", "L", "T"]
+
+ S  D  N  I  A ["S", "D", "N", "I", "A"]
+
+ A  K  C  M  T ["A", "K", "C", "M", "T"]
+
+ D  U  I  A  V ["D", "U", "I", "A", "V"]
+
+ N  R  O  J  N ["N", "R", "O", "J", "N"]
+
+ O  K  N  V  W ["O", "K", "N", "V", "W"]
+
+ R [["P", "O", "E", "M"], ["A", "T", "C", "L", "T"], ["G", "Q", "A", "L", "T"], ["S", "D", "N", "I", "A"], ["A", "K", "C", "M", "T"], ["D", "U", "I", "A", "V"], ["N", "R", "O", "J", "N"], ["O", "K", "N", "V", "W"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ Y  C  H  J  A ["Y", "C", "H", "J", "A"]
+
+ O  A  F  M  S ["O", "A", "F", "M", "S"]
+
+ Y  N  L  A  A ["Y", "N", "L", "A", "A"]
+
+ K  C  M  D  D ["K", "C", "M", "D", "D"]
+
+ W  I  T  O  N ["W", "I", "T", "O", "N"]
+
+ R  O  O  J  O ["R", "O", "O", "J", "O"]
+
+ M  N  A  F  R [[], ["P", "O", "E", "M", "A"], ["Y", "C", "H", "J", "A"], ["O", "A", "F", "M", "S"], ["Y", "N", "L", "A", "A"], ["K", "C", "M", "D", "D"], ["W", "I", "T", "O", "N"], ["R", "O", "O", "J", "O"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ Z  C  P  F  Z ["Z", "C", "P", "F", "Z"]
+
+ Y  A  O  G  S ["Y", "A", "O", "G", "S"]
+
+ Z  N  D  A  A ["Z", "N", "D", "A", "A"]
+
+ P  C  M  T  D ["P", "C", "M", "T", "D"]
+
+ P  I  S  P  N ["P", "I", "S", "P", "N"]
+
+ R  O  E  M  O ["R", "O", "E", "M", "O"]
+
+ P  N  Q  W  R ["P", "N", "Q", "W", "R"]
+
+  [[], ["P", "O", "E", "M", "A"], ["Z", "C", "P", "F", "Z"], ["Y", "A", "O", "G", "S"], ["Z", "N", "D", "A", "A"], ["P", "C", "M", "T", "D"], ["P", "I", "S", "P", "N"], ["R", "O", "E", "M", "O"], ["P", "N", "Q", "W", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[]
+
+ P  O  E  M  A ["P", "O", "E", "M", "A"]
+
+ Y  C  A  A  P ["Y", "C", "A", "A", "P"]
+
+ N  A  Z  C  S ["N", "A", "Z", "C", "S"]
+
+ C  N  H  A  A ["C", "N", "H", "A", "A"]
+
+ G  C  M  B  D ["G", "C", "M", "B", "D"]
+
+ P  I  E  L  N ["P", "I", "E", "L", "N"]
+
+ R  O  T  O  O ["R", "O", "T", "O", "O"]
+
+ I  N  K  R  R ["I", "N", "K", "R", "R"]
+
+  [[], ["P", "O", "E", "M", "A"], ["Y", "C", "A", "A", "P"], ["N", "A", "Z", "C", "S"], ["C", "N", "H", "A", "A"], ["G", "C", "M", "B", "D"], ["P", "I", "E", "L", "N"], ["R", "O", "T", "O", "O"], ["I", "N", "K", "R", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ V  C  E  Q  C 
+ J  A  E  Q  S 
+ B  N  Z  A  A 
+ Q  C  M  A  D 
+ L  I  A  T  N 
+ R  O  U  E  O 
+ Z  N  E  P  R 
+  [[], ["P", "O", "E", "M", "A"], ["V", "C", "E", "Q", "C"], ["J", "A", "E", "Q", "S"], ["B", "N", "Z", "A", "A"], ["Q", "C", "M", "A", "D"], ["L", "I", "A", "T", "N"], ["R", "O", "U", "E", "O"], ["Z", "N", "E", "P", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ I  C  O  C  Z 
+ B  A  C  Z  S 
+ U  N  F  A  A 
+ Z  C  M  N  D 
+ R  I  U  C  N 
+ R  O  A  S  O 
+ O  N  Q  B  R 
+  [[], ["P", "O", "E", "M", "A"], ["I", "C", "O", "C", "Z"], ["B", "A", "C", "Z", "S"], ["U", "N", "F", "A", "A"], ["Z", "C", "M", "N", "D"], ["R", "I", "U", "C", "N"], ["R", "O", "A", "S", "O"], ["O", "N", "Q", "B", "R"]]
+sopa2.rb:27:in `to_s': uninitialized class variable @@tableroa in Board (NameError)
+	from sopa2.rb:53:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ T  C  J  Q  D 
+ U  A  E  U  S 
+ T  N  A  A  A 
+ M  C  M  N  D 
+ D  I  I  L  N 
+ R  O  W  U  O 
+ O  N  U  B  R 
+  [[], ["P", "O", "E", "M", "A"], ["T", "C", "J", "Q", "D"], ["U", "A", "E", "U", "S"], ["T", "N", "A", "A", "A"], ["M", "C", "M", "N", "D"], ["D", "I", "I", "L", "N"], ["R", "O", "W", "U", "O"], ["O", "N", "U", "B", "R"]]
+[]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ W  C  V  N  T 
+ S  A  U  V  S 
+ V  N  N  A  A 
+ Q  C  M  Y  D 
+ S  I  L  N  N 
+ R  O  B  D  O 
+ B  N  G  C  R 
+  [[], ["P", "O", "E", "M", "A"], ["W", "C", "V", "N", "T"], ["S", "A", "U", "V", "S"], ["V", "N", "N", "A", "A"], ["Q", "C", "M", "Y", "D"], ["S", "I", "L", "N", "N"], ["R", "O", "B", "D", "O"], ["B", "N", "G", "C", "R"]]
+["P", "O", "E", "M", "A"]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ A  C  W  S  S 
+ C  A  Y  P  S 
+ R  N  G  A  A 
+ M  C  M  U  D 
+ R  I  G  W  N 
+ R  O  J  F  O 
+ K  N  M  E  R 
+  [[], ["P", "O", "E", "M", "A"], ["A", "C", "W", "S", "S"], ["C", "A", "Y", "P", "S"], ["R", "N", "G", "A", "A"], ["M", "C", "M", "U", "D"], ["R", "I", "G", "W", "N"], ["R", "O", "J", "F", "O"], ["K", "N", "M", "E", "R"]]
+[]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ E  C  A  I  M 
+ H  A  M  H  S 
+ E  N  W  A  A 
+ A  C  M  U  D 
+ N  I  Q  C  N 
+ R  O  Y  H  O 
+ V  N  Y  E  R 
+  [[], ["P", "O", "E", "M", "A"], ["E", "C", "A", "I", "M"], ["H", "A", "M", "H", "S"], ["E", "N", "W", "A", "A"], ["A", "C", "M", "U", "D"], ["N", "I", "Q", "C", "N"], ["R", "O", "Y", "H", "O"], ["V", "N", "Y", "E", "R"]]
+[[], ["P", "O", "E", "M", "A"], ["E", "C", "A", "I", "M"], ["H", "A", "M", "H", "S"], ["E", "N", "W", "A", "A"], ["A", "C", "M", "U", "D"], ["N", "I", "Q", "C", "N"], ["R", "O", "Y", "H", "O"], ["V", "N", "Y", "E", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+
+ P  O  E  M  A 
+ H  C  M  W  N 
+ W  A  U  I  S 
+ H  N  K  A  A 
+ I  C  M  E  D 
+ P  I  G  S  N 
+ R  O  K  R  O 
+ O  N  F  L  R 
+  [[], ["P", "O", "E", "M", "A"], ["H", "C", "M", "W", "N"], ["W", "A", "U", "I", "S"], ["H", "N", "K", "A", "A"], ["I", "C", "M", "E", "D"], ["P", "I", "G", "S", "N"], ["R", "O", "K", "R", "O"], ["O", "N", "F", "L", "R"]]
+sopa2.rb:27:in `-': no implicit conversion of String into Array (TypeError)
+	from sopa2.rb:27:in `to_s'
+	from sopa2.rb:53:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ 
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  F  D  S 
+ O  A  D  O  S 
+ G  N  F  A  A 
+ E  C  M  D  D 
+ D  I  B  H  N 
+ R  O  G  H  O 
+ R  N  T  I  R 
+  [[], ["P", "O", "E", "M", "A"], ["O", "C", "F", "D", "S"], ["O", "A", "D", "O", "S"], ["G", "N", "F", "A", "A"], ["E", "C", "M", "D", "D"], ["D", "I", "B", "H", "N"], ["R", "O", "G", "H", "O"], ["R", "N", "T", "I", "R"]]
+sopa2.rb:27:in `-': no implicit conversion of String into Array (TypeError)
+	from sopa2.rb:27:in `to_s'
+	from sopa2.rb:53:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  C  E  H 
+ B  A  Z  Z  S 
+ P  N  G  A  A 
+ J  C  M  N  D 
+ I  I  B  O  N 
+ R  O  N  C  O 
+ P  N  L  N  R 
+  [[], ["P", "O", "E", "M", "A"], ["O", "C", "C", "E", "H"], ["B", "A", "Z", "Z", "S"], ["P", "N", "G", "A", "A"], ["J", "C", "M", "N", "D"], ["I", "I", "B", "O", "N"], ["R", "O", "N", "C", "O"], ["P", "N", "L", "N", "R"]]
+[[], ["P", "O", "E", "M", "A"], ["O", "C", "C", "E", "H"], ["B", "A", "Z", "Z", "S"], ["P", "N", "G", "A", "A"], ["J", "C", "M", "N", "D"], ["I", "I", "B", "O", "N"], ["R", "O", "N", "C", "O"], ["P", "N", "L", "N", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ V  C  R  Q  H 
+ F  A  F  M  S 
+ S  N  D  A  A 
+ Q  C  M  L  D 
+ O  I  F  W  N 
+ R  O  V  J  O 
+ U  N  Z  E  R 
+  [[], ["P", "O", "E", "M", "A"], ["V", "C", "R", "Q", "H"], ["F", "A", "F", "M", "S"], ["S", "N", "D", "A", "A"], ["Q", "C", "M", "L", "D"], ["O", "I", "F", "W", "N"], ["R", "O", "V", "J", "O"], ["U", "N", "Z", "E", "R"]]
+[["P", "O", "E", "M", "A"], ["V", "C", "R", "Q", "H"], ["F", "A", "F", "M", "S"], ["S", "N", "D", "A", "A"], ["Q", "C", "M", "L", "D"], ["O", "I", "F", "W", "N"], ["R", "O", "V", "J", "O"], ["U", "N", "Z", "E", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ W  C  Z  E  P 
+ S  A  B  Q  S 
+ F  N  M  A  A 
+ J  C  M  I  D 
+ D  I  O  V  N 
+ R  O  H  D  O 
+ H  N  Y  L  R 
+  [[], ["P", "O", "E", "M", "A"], ["W", "C", "Z", "E", "P"], ["S", "A", "B", "Q", "S"], ["F", "N", "M", "A", "A"], ["J", "C", "M", "I", "D"], ["D", "I", "O", "V", "N"], ["R", "O", "H", "D", "O"], ["H", "N", "Y", "L", "R"]]
+[["P", "O", "E", "M", "A"], ["W", "C", "Z", "E", "P"], ["S", "A", "B", "Q", "S"], ["F", "N", "M", "A", "A"], ["J", "C", "M", "I", "D"], ["D", "I", "O", "V", "N"], ["R", "O", "H", "D", "O"], ["H", "N", "Y", "L", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Z  C  Z  Q  D 
+ L  A  T  E  S 
+ B  N  O  A  A 
+ U  C  M  L  D 
+ I  I  M  O  N 
+ R  O  Q  B  O 
+ Z  N  P  J  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ G  C  Q  F  J 
+ E  A  Y  Y  S 
+ Q  N  A  A  A 
+ C  C  M  A  D 
+ A  I  V  N  N 
+ R  O  I  B  O 
+ R  N  I  V  R 
+  [["P", "O", "E", "M", "A"], ["G", "C", "Q", "F", "J"], ["E", "A", "Y", "Y", "S"], ["Q", "N", "A", "A", "A"], ["C", "C", "M", "A", "D"], ["A", "I", "V", "N", "N"], ["R", "O", "I", "B", "O"], ["R", "N", "I", "V", "R"]]
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ M  C  U  U  F 
+ U  A  M  H  S 
+ K  N  W  A  A 
+ M  C  M  L  D 
+ N  I  Y  J  N 
+ R  O  D  P  O 
+ C  N  B  R  R 
+  
+
+"P"
+"P"
+"O"
+"O"
+"E"
+"E"
+"M"
+"M"
+"A"
+"A"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ L  C  D  D  A 
+ H  A  F  H  S 
+ O  N  S  A  A 
+ Q  C  M  M  D 
+ Z  I  V  F  N 
+ R  O  J  L  O 
+ D  N  W  N  R 
+  
+
+sopa2.rb:14:in `block in horizontal_d': undefined local variable or method `tablero_1' for #<Board:0x007fa851848b58> (NameError)
+	from sopa2.rb:13:in `each'
+	from sopa2.rb:13:in `horizontal_d'
+	from sopa2.rb:62:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ W  C  M  V  L 
+ C  A  N  M  S 
+ J  N  N  A  A 
+ A  C  M  K  D 
+ M  I  D  Y  N 
+ R  O  Q  Q  O 
+ E  N  U  S  R 
+  
+
+sopa2.rb:14:in `block in horizontal_d': undefined local variable or method `tablero_1' for #<Board:0x007fe131848a90> (NameError)
+	from sopa2.rb:13:in `each'
+	from sopa2.rb:13:in `horizontal_d'
+	from sopa2.rb:62:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:28:in `block in to_s': undefined method `<<' for nil:NilClass (NoMethodError)
+	from sopa2.rb:26:in `each'
+	from sopa2.rb:26:in `to_s'
+	from sopa2.rb:61:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ A  C  R  Y  R 
+ L  A  T  I  S 
+ T  N  J  A  A 
+ Z  C  M  I  D 
+ C  I  R  N  N 
+ R  O  W  F  O 
+ W  N  D  W  R 
+  
+
+sopa2.rb:14:in `block in horizontal_d': undefined local variable or method `tablero_1' for #<Board:0x007fbc2384abe8> (NameError)
+	from sopa2.rb:13:in `each'
+	from sopa2.rb:13:in `horizontal_d'
+	from sopa2.rb:62:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ W  C  H  K  S 
+ M  A  I  V  S 
+ B  N  B  A  A 
+ N  C  M  B  D 
+ U  I  T  Y  N 
+ R  O  Z  C  O 
+ F  N  J  G  R 
+  
+
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ T  C  S  V  G 
+ I  A  G  G  S 
+ U  N  Q  A  A 
+ G  C  M  U  D 
+ V  I  U  J  N 
+ R  O  H  M  O 
+ Q  N  Q  J  R 
+  
+
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"POEMA"
+"P"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"CANCION"
+"C"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"RONDAS"
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"RIMAS"
+"R"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ P  C  O  S  A 
+ L  A  U  P  S 
+ E  N  G  A  A 
+ P  C  M  A  D 
+ J  I  T  O  N 
+ R  O  B  L  O 
+ W  N  Y  K  R 
+  
+
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"POEMA"
+sopa2.rb:16:in `block in horizontal_d': undefined local variable or method `word' for #<Board:0x007f9bc482fca0> (NameError)
+	from sopa2.rb:13:in `each'
+	from sopa2.rb:13:in `horizontal_d'
+	from sopa2.rb:64:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ F  C  U  D  V 
+ Z  A  K  Z  S 
+ I  N  O  A  A 
+ M  C  M  R  D 
+ W  I  N  W  N 
+ R  O  V  A  O 
+ F  N  S  S  R 
+  
+
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"POEMA"
+sopa2.rb:18:in `block in horizontal_d': undefined local variable or method `word' for #<Board:0x007ff0e4031290> (NameError)
+	from sopa2.rb:15:in `each'
+	from sopa2.rb:15:in `horizontal_d'
+	from sopa2.rb:66:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  O  Z  Z 
+ M  A  O  V  S 
+ Z  N  D  A  A 
+ N  C  M  A  D 
+ M  I  A  B  N 
+ R  O  A  C  O 
+ C  N  Q  K  R 
+  
+
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"POEMA"
+sopa2.rb:18:in `block in horizontal_d': undefined local variable or method `word' for #<Board:0x007fe291849498> (NameError)
+	from sopa2.rb:15:in `each'
+	from sopa2.rb:15:in `horizontal_d'
+	from sopa2.rb:66:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Q  C  I  H  K 
+ Q  A  U  F  S 
+ S  N  L  A  A 
+ M  C  M  T  D 
+ W  I  P  H  N 
+ R  O  K  E  O 
+ V  N  G  P  R 
+  
+
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"POEMA"
+"P"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"CANCION"
+"C"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"RONDAS"
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+"RIMAS"
+"R"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:19:in `block in letters_and_words': undefined method `chr' for ["POEMA"]:Array (NoMethodError)
+	from sopa2.rb:16:in `each'
+	from sopa2.rb:16:in `letters_and_words'
+	from sopa2.rb:12:in `initialize'
+	from sopa2.rb:67:in `new'
+	from sopa2.rb:67:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+["POEMA"]
+nil
+["POEMA", "CANCION"]
+nil
+["POEMA", "CANCION", "RONDAS"]
+nil
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+nil
+
+ P  O  E  M  A 
+ F  C  O  T  U 
+ A  A  N  Z  S 
+ P  N  H  A  A 
+ W  C  M  G  D 
+ W  I  Z  K  N 
+ R  O  E  M  O 
+ W  N  K  C  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+["POEMA"]
+nil
+["POEMA", "CANCION"]
+nil
+["POEMA", "CANCION", "RONDAS"]
+nil
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+nil
+
+ P  O  E  M  A 
+ J  C  P  T  A 
+ C  A  N  Z  S 
+ C  N  Q  A  A 
+ Y  C  M  I  D 
+ Q  I  C  O  N 
+ R  O  U  Q  O 
+ Y  N  U  V  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"P"
+["POEMA"]
+nil
+"C"
+["POEMA", "CANCION"]
+nil
+"R"
+["POEMA", "CANCION", "RONDAS"]
+nil
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+nil
+
+ P  O  E  M  A 
+ B  C  Q  G  L 
+ Q  A  L  V  S 
+ G  N  W  A  A 
+ J  C  M  A  D 
+ V  I  S  L  N 
+ R  O  Y  L  O 
+ A  N  T  D  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"P"
+"C"
+"R"
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+nil
+
+ P  O  E  M  A 
+ B  C  I  Z  W 
+ N  A  J  L  S 
+ T  N  V  A  A 
+ K  C  M  K  D 
+ I  I  B  T  N 
+ R  O  I  J  O 
+ H  N  F  J  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"P"
+"C"
+"R"
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+nil
+
+ P  O  E  M  A 
+ N  C  P  E  O 
+ N  A  K  O  S 
+ Y  N  H  A  A 
+ A  C  M  Q  D 
+ Y  I  W  E  N 
+ R  O  L  Q  O 
+ H  N  O  E  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"POEMA"
+"P"
+"CANCION"
+"C"
+"RONDAS"
+"R"
+"RIMAS"
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+nil
+
+ P  O  E  M  A 
+ F  C  C  T  W 
+ L  A  K  K  S 
+ T  N  V  A  A 
+ Y  C  M  H  D 
+ P  I  H  Y  N 
+ R  O  Y  F  O 
+ N  N  Q  S  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"POEMA"
+"P"
+"CANCION"
+"C"
+"RONDAS"
+"R"
+"RIMAS"
+"R"
+["POEMA", "CANCION", "RONDAS", "RIMAS"]
+["P", "C", "R", "R"]
+
+ P  O  E  M  A 
+ O  C  M  Q  T 
+ J  A  N  T  S 
+ P  N  L  A  A 
+ U  C  M  J  D 
+ T  I  I  K  N 
+ R  O  J  V  O 
+ U  N  K  Q  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"POEMA"
+"P"
+"CANCION"
+"C"
+"RONDAS"
+"R"
+"RIMAS"
+"R"
+
+ P  O  E  M  A 
+ K  C  V  K  W 
+ C  A  C  Z  S 
+ C  N  R  A  A 
+ A  C  M  M  D 
+ U  I  F  B  N 
+ R  O  H  T  O 
+ L  N  I  Z  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+"POEMA"
+"P"
+"CANCION"
+"C"
+"RONDAS"
+"R"
+"RIMAS"
+"R"
+
+ P  O  E  M  A 
+ P  C  Q  T  Q 
+ Y  A  E  H  S 
+ P  N  Q  A  A 
+ C  C  M  C  D 
+ V  I  F  Y  N 
+ R  O  A  I  O 
+ J  N  H  K  R 
+  
+
+"POEMA"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ I  C  W  O  Y 
+ J  A  V  K  S 
+ I  N  D  A  A 
+ G  C  M  Z  D 
+ G  I  K  P  N 
+ R  O  Q  Q  O 
+ U  N  U  F  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ P  C  F  Y  A 
+ L  A  Z  F  S 
+ U  N  S  A  A 
+ P  C  M  H  D 
+ R  I  K  U  N 
+ R  O  W  W  O 
+ U  N  O  V  R 
+  
+
+"POEMA"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ J  C  J  E  Z 
+ F  A  J  D  S 
+ I  N  C  A  A 
+ E  C  M  M  D 
+ Y  I  D  G  N 
+ R  O  O  L  O 
+ T  N  P  E  R 
+  
+
+nil
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  G  T  Q 
+ J  A  T  S  S 
+ J  N  A  A  A 
+ H  C  M  H  D 
+ Q  I  S  R  N 
+ R  O  M  O  O 
+ O  N  Q  Y  R 
+  
+
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  A  P  U 
+ V  A  L  E  S 
+ N  N  R  A  A 
+ G  C  M  F  D 
+ I  I  I  N  N 
+ R  O  F  Y  O 
+ G  N  P  H  R 
+  
+
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ L  C  U  R  F 
+ Q  A  H  C  S 
+ Z  N  Q  A  A 
+ P  C  M  C  D 
+ R  I  Y  H  N 
+ R  O  Z  C  O 
+ R  N  Y  N  R 
+  
+
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:30: syntax error, unexpected ']', expecting keyword_end
+          p @@word[palabra_selec]]*("")
+                                  ^
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ S  C  V  L  W 
+ L  A  I  P  S 
+ E  N  M  A  A 
+ G  C  M  P  D 
+ Z  I  M  G  N 
+ R  O  P  H  O 
+ H  N  G  A  R 
+  
+
+sopa2.rb:30:in `*': no implicit conversion of String into Integer (TypeError)
+	from sopa2.rb:30:in `block (2 levels) in horizontal_d'
+	from sopa2.rb:25:in `each'
+	from sopa2.rb:25:in `block in horizontal_d'
+	from sopa2.rb:24:in `each'
+	from sopa2.rb:24:in `horizontal_d'
+	from sopa2.rb:78:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ W  C  I  T  L 
+ E  A  M  W  S 
+ S  N  V  A  A 
+ D  C  M  T  D 
+ K  I  R  L  N 
+ R  O  E  L  O 
+ D  N  D  W  R 
+  
+
+"POEMA"
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Y  C  N  I  Q 
+ G  A  P  F  S 
+ J  N  T  A  A 
+ Z  C  M  R  D 
+ P  I  O  O  N 
+ R  O  G  O  O 
+ O  N  P  T  R 
+  
+
+0
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ J  C  J  M  S 
+ P  A  O  Q  S 
+ L  N  Z  A  A 
+ C  C  M  E  D 
+ H  I  L  F  N 
+ R  O  N  G  O 
+ G  N  U  R  R 
+  
+
+sopa2.rb:30:in `*': no implicit conversion of String into Integer (TypeError)
+	from sopa2.rb:30:in `block (2 levels) in horizontal_d'
+	from sopa2.rb:25:in `each'
+	from sopa2.rb:25:in `block in horizontal_d'
+	from sopa2.rb:24:in `each'
+	from sopa2.rb:24:in `horizontal_d'
+	from sopa2.rb:78:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ L  C  A  T  D 
+ J  A  T  K  S 
+ Y  N  R  A  A 
+ H  C  M  H  D 
+ Z  I  A  A  N 
+ R  O  N  F  O 
+ T  N  V  I  R 
+  
+
+"POEMA"
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ E  C  R  C  W 
+ S  A  E  W  S 
+ U  N  A  A  A 
+ K  C  M  O  D 
+ W  I  D  W  N 
+ R  O  O  B  O 
+ G  N  U  C  R 
+  
+
+"POEMA"
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ E  C  J  A  M 
+ G  A  B  A  S 
+ B  N  A  A  A 
+ P  C  M  Q  D 
+ O  I  W  Z  N 
+ R  O  S  Z  O 
+ B  N  B  O  R 
+  
+
+"POEMA"
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ M  C  S  V  E 
+ B  A  W  M  S 
+ P  N  O  A  A 
+ Y  C  M  M  D 
+ Y  I  T  E  N 
+ R  O  T  T  O 
+ I  N  J  E  R 
+  
+
+"POEMA"
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Z  C  K  O  Q 
+ L  A  G  F  S 
+ P  N  W  A  A 
+ B  C  M  T  D 
+ Z  I  M  G  N 
+ R  O  L  R  O 
+ E  N  B  A  R 
+  
+
+"POEMA"
+"*****"
+["*", "*", "*", "*", "*"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  F  P  G 
+ B  A  R  Y  S 
+ E  N  A  A  A 
+ U  C  M  O  D 
+ S  I  D  D  N 
+ R  O  R  H  O 
+ Q  N  O  L  R 
+  
+
+"POEMA"
+"*****"
+["*", "*", "*", "*", "*"]
+"BAR"
+"B*RYS"
+["B", "*", "R", "Y", "S"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ T  C  L  C  M 
+ R  A  K  S  S 
+ O  N  K  A  A 
+ H  C  M  A  D 
+ B  I  F  J  N 
+ R  O  F  E  O 
+ W  N  M  L  R 
+  
+
+"POEMA"
+"POEM*"
+["P", "O", "E", "M", "*"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ V  C  O  B  M 
+ H  A  O  D  S 
+ V  N  E  A  A 
+ F  C  M  I  D 
+ K  I  R  L  N 
+ R  O  F  C  O 
+ B  N  E  W  R 
+  
+
+"POEMA"
+"PO***"
+["P", "O", "*", "*", "*"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+[[nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+
+ P  O  E  M  A 
+ H  C  G  Z  F 
+ K  A  C  P  S 
+ P  N  K  A  A 
+ K  C  M  D  D 
+ Q  I  O  C  N 
+ R  O  C  W  O 
+ A  N  E  W  R 
+  
+
+"POEMA"
+"PO***"
+["P", "O", "*", "*", "*"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ F  C  G  E  T 
+ E  A  I  E  S 
+ P  N  B  A  A 
+ N  C  M  D  D 
+ G  I  Y  W  N 
+ R  O  H  A  O 
+ A  N  Z  J  R 
+  
+
+"POEMA"
+"POEMA"
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Z  C  S  A  S 
+ C  A  B  C  S 
+ T  N  B  A  A 
+ J  C  M  M  D 
+ S  I  K  P  N 
+ R  O  L  K  O 
+ Y  N  C  B  R 
+  
+
+"POEMA"
+"*"
+["*"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ I  C  L  R  P 
+ A  A  R  E  S 
+ T  N  J  A  A 
+ D  C  M  I  D 
+ Z  I  J  T  N 
+ R  O  Y  T  O 
+ N  N  A  O  R 
+  
+
+5
+sopa2.rb:34:in `block (2 levels) in horizontal_d': undefined local variable or method `x' for #<Board:0x007fcd5924e018> (NameError)
+	from sopa2.rb:28:in `each'
+	from sopa2.rb:28:in `block in horizontal_d'
+	from sopa2.rb:27:in `each'
+	from sopa2.rb:27:in `horizontal_d'
+	from sopa2.rb:91:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  Q  F  R 
+ B  A  I  M  S 
+ C  N  O  A  A 
+ K  C  M  H  D 
+ G  I  Q  J  N 
+ R  O  D  L  O 
+ L  N  J  C  R 
+  
+
+5
+sopa2.rb:34:in `*': String can't be coerced into Fixnum (TypeError)
+	from sopa2.rb:34:in `block (2 levels) in horizontal_d'
+	from sopa2.rb:28:in `each'
+	from sopa2.rb:28:in `block in horizontal_d'
+	from sopa2.rb:27:in `each'
+	from sopa2.rb:27:in `horizontal_d'
+	from sopa2.rb:91:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  W  I  S 
+ W  A  N  G  S 
+ L  N  P  A  A 
+ Z  C  M  T  D 
+ M  I  H  V  N 
+ R  O  E  U  O 
+ O  N  Y  V  R 
+  
+
+5
+"*****"
+["*", "*", "*", "*", "*"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ P  C  C  K  E 
+ J  A  Z  M  S 
+ Z  N  E  A  A 
+ M  C  M  W  D 
+ F  I  L  A  N 
+ R  O  E  F  O 
+ F  N  M  Z  R 
+  
+
+5
+"*****"
+["*", "*", "*", "*", "*"]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Y  C  Z  W  Y 
+ K  A  L  K  S 
+ T  N  Y  A  A 
+ W  C  M  J  D 
+ Y  I  V  N  N 
+ R  O  E  L  O 
+ M  N  D  R  R 
+  
+
+5
+"*****"
+["*", "*", "*", "*", "*"]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"YCZWY"
+["Y", "C", "Z", "W", "Y"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"KALKS"
+["K", "A", "L", "K", "S"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], ["K", "A", "L", "K", "S"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"TNYAA"
+["T", "N", "Y", "A", "A"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], ["K", "A", "L", "K", "S"], ["T", "N", "Y", "A", "A"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"WCMJD"
+["W", "C", "M", "J", "D"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], ["K", "A", "L", "K", "S"], ["T", "N", "Y", "A", "A"], ["W", "C", "M", "J", "D"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"YIVNN"
+["Y", "I", "V", "N", "N"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], ["K", "A", "L", "K", "S"], ["T", "N", "Y", "A", "A"], ["W", "C", "M", "J", "D"], ["Y", "I", "V", "N", "N"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"ROELO"
+["R", "O", "E", "L", "O"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], ["K", "A", "L", "K", "S"], ["T", "N", "Y", "A", "A"], ["W", "C", "M", "J", "D"], ["Y", "I", "V", "N", "N"], ["R", "O", "E", "L", "O"], [nil, nil, nil, nil, nil]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+0
+"MNDRR"
+["M", "N", "D", "R", "R"]
+[["*", "*", "*", "*", "*"], ["Y", "C", "Z", "W", "Y"], ["K", "A", "L", "K", "S"], ["T", "N", "Y", "A", "A"], ["W", "C", "M", "J", "D"], ["Y", "I", "V", "N", "N"], ["R", "O", "E", "L", "O"], ["M", "N", "D", "R", "R"]]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ G  C  S  U  F 
+ Y  A  P  L  S 
+ J  N  A  A  A 
+ A  C  M  C  D 
+ T  I  J  T  N 
+ R  O  F  J  O 
+ U  N  W  F  R 
+  
+
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["", "C", "R", "R"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ F  C  Y  N  N 
+ G  A  Z  D  S 
+ I  N  V  A  A 
+ G  C  M  N  D 
+ W  I  Z  T  N 
+ R  O  F  C  O 
+ W  N  B  M  R 
+  
+
+"Palabra encontrada: POEMA horizontal-d"
+"Palabra encontrada:  horizontal-d"
+"Palabra encontrada:  horizontal-d"
+"Palabra encontrada:  horizontal-d"
+"Palabra encontrada:  horizontal-d"
+"Palabra encontrada:  horizontal-d"
+"Palabra encontrada:  horizontal-d"
+"Palabra encontrada:  horizontal-d"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  Q  F  L 
+ H  A  V  V  S 
+ L  N  H  A  A 
+ J  C  M  D  D 
+ H  I  F  K  N 
+ R  O  C  G  O 
+ W  N  T  G  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ A  M  E  O  P 
+ L  C  R  F  J 
+ R  A  C  M  S 
+ N  N  L  A  A 
+ Z  C  M  U  D 
+ Z  I  M  Y  N 
+ R  O  D  D  O 
+ E  N  U  V  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ A  M  E  O  P 
+ E  C  D  Z  Q 
+ Q  A  W  D  S 
+ J  N  I  A  A 
+ T  C  M  J  D 
+ N  I  Y  G  N 
+ R  O  J  H  O 
+ M  N  M  L  R 
+  
+
+"AMEOP"
+"NOICNAC"
+"SADNOR"
+"SAMIR"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ A  M  E  O  P 
+ Z  C  L  F  S 
+ L  A  N  Z  S 
+ F  N  S  A  A 
+ P  C  M  O  D 
+ K  I  H  B  N 
+ R  O  L  U  O 
+ I  N  O  B  R 
+  
+
+"AMEOP"
+"NOICNAC"
+"SADNOR"
+"SAMIR"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ A  M  E  O  P 
+ K  C  R  Z  O 
+ P  A  G  T  S 
+ L  N  D  A  A 
+ S  C  M  V  D 
+ W  I  T  I  N 
+ R  O  H  I  O 
+ Z  N  Y  T  R 
+  
+
+"AMEOP"
+sopa2.rb:53:in `block (2 levels) in horizontal_i': undefined local variable or method `reverse' for #<Board:0x007fee722288d8> (NameError)
+	from sopa2.rb:46:in `each'
+	from sopa2.rb:46:in `block in horizontal_i'
+	from sopa2.rb:44:in `each'
+	from sopa2.rb:44:in `horizontal_i'
+	from sopa2.rb:105:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ A  M  E  O  P 
+ L  C  K  U  N 
+ O  A  Q  V  S 
+ E  N  L  A  A 
+ H  C  M  T  D 
+ Y  I  U  S  N 
+ R  O  U  K  O 
+ H  N  P  V  R 
+  
+
+"AMEOP"
+["*", "*", "*", "*", "*"]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["L", "C", "K", "U", "N"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["O", "A", "Q", "V", "S"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], ["O", "A", "Q", "V", "S"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["E", "N", "L", "A", "A"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], ["O", "A", "Q", "V", "S"], ["E", "N", "L", "A", "A"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["H", "C", "M", "T", "D"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], ["O", "A", "Q", "V", "S"], ["E", "N", "L", "A", "A"], ["H", "C", "M", "T", "D"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["Y", "I", "U", "S", "N"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], ["O", "A", "Q", "V", "S"], ["E", "N", "L", "A", "A"], ["H", "C", "M", "T", "D"], ["Y", "I", "U", "S", "N"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+["R", "O", "U", "K", "O"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], ["O", "A", "Q", "V", "S"], ["E", "N", "L", "A", "A"], ["H", "C", "M", "T", "D"], ["Y", "I", "U", "S", "N"], ["R", "O", "U", "K", "O"], [nil, nil, nil, nil, nil]]
+["H", "N", "P", "V", "R"]
+[["*", "*", "*", "*", "*"], ["L", "C", "K", "U", "N"], ["O", "A", "Q", "V", "S"], ["E", "N", "L", "A", "A"], ["H", "C", "M", "T", "D"], ["Y", "I", "U", "S", "N"], ["R", "O", "U", "K", "O"], ["H", "N", "P", "V", "R"]]
+"NOICNAC"
+"SADNOR"
+"SAMIR"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ A  M  E  O  P 
+ B  C  C  R  M 
+ C  A  U  U  S 
+ Q  N  Z  A  A 
+ B  C  M  C  D 
+ A  I  E  J  N 
+ R  O  H  C  O 
+ L  N  H  S  R 
+  
+
+[["*", "*", "*", "*", "*"], ["B", "C", "C", "R", "M"], ["C", "A", "U", "U", "S"], ["Q", "N", "Z", "A", "A"], ["B", "C", "M", "C", "D"], ["A", "I", "E", "J", "N"], ["R", "O", "H", "C", "O"], ["L", "N", "H", "S", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ A  C  K  C  J 
+ H  A  E  Q  S 
+ W  N  I  A  A 
+ G  C  M  E  D 
+ M  I  H  G  N 
+ R  O  V  R  O 
+ B  N  P  L  R 
+  
+
+8
+8
+8
+8
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Z  C  Z  H  U 
+ U  A  N  G  S 
+ K  N  K  A  A 
+ E  C  M  C  D 
+ K  I  B  U  N 
+ R  O  B  V  O 
+ C  N  L  B  R 
+  
+
+5
+5
+5
+5
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ D  C  Y  T  Q 
+ A  A  I  O  S 
+ P  N  S  A  A 
+ B  C  M  E  D 
+ O  I  K  S  N 
+ R  O  I  K  O 
+ C  N  Z  I  R 
+  
+
+["P", "O", "E", "M", "A"]
+sopa2.rb:71:in `block (2 levels) in vertical_d': undefined local variable or method `columna' for #<Board:0x007fdb3b028ac8> (NameError)
+	from sopa2.rb:70:in `each'
+	from sopa2.rb:70:in `block in vertical_d'
+	from sopa2.rb:68:in `each'
+	from sopa2.rb:68:in `vertical_d'
+	from sopa2.rb:126:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  A  J  M 
+ D  A  U  R  S 
+ C  N  E  A  A 
+ W  C  M  G  D 
+ C  I  I  C  N 
+ R  O  A  O  O 
+ T  N  D  Q  R 
+  
+
+["P", "O", "E", "M", "A"]
+sopa2.rb:71:in `block (2 levels) in vertical_d': undefined method `join' for "P":String (NoMethodError)
+	from sopa2.rb:70:in `each'
+	from sopa2.rb:70:in `block in vertical_d'
+	from sopa2.rb:68:in `each'
+	from sopa2.rb:68:in `vertical_d'
+	from sopa2.rb:126:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ K  C  P  O  W 
+ Q  A  L  A  S 
+ I  N  D  A  A 
+ C  C  M  Y  D 
+ V  I  A  W  N 
+ R  O  O  N  O 
+ J  N  G  O  R 
+  
+
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ F  C  L  T  P 
+ D  A  U  C  S 
+ H  N  N  A  A 
+ I  C  M  V  D 
+ T  I  N  Y  N 
+ R  O  N  I  O 
+ Z  N  E  R  R 
+  
+
+"F"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ P  C  B  B  D 
+ C  A  P  O  S 
+ F  N  U  A  A 
+ O  C  M  S  D 
+ O  I  K  R  N 
+ R  O  F  R  O 
+ O  N  E  S  R 
+  
+
+"P"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ R  C  I  B  F 
+ Q  A  C  U  S 
+ F  N  Q  A  A 
+ K  C  M  Q  D 
+ T  I  W  P  N 
+ R  O  A  J  O 
+ P  N  Z  S  R 
+  
+
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ I  C  U  N  I 
+ G  A  D  K  S 
+ G  N  G  A  A 
+ D  C  M  U  D 
+ T  I  O  Z  N 
+ R  O  B  G  O 
+ G  N  F  V  R 
+  
+
+["P", "O", "E", "M", "A"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ P  C  B  V  L 
+ N  A  T  N  S 
+ L  N  U  A  A 
+ V  C  M  T  D 
+ O  I  G  E  N 
+ R  O  H  G  O 
+ G  N  I  V  R 
+  
+
+sopa2.rb:67:in `[]': wrong number of arguments (0 for 1..2) (ArgumentError)
+	from sopa2.rb:67:in `vertical_d'
+	from sopa2.rb:126:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  R  H  C 
+ I  A  T  K  S 
+ S  N  T  A  A 
+ M  C  M  J  D 
+ R  I  P  J  N 
+ R  O  G  M  O 
+ P  N  I  V  R 
+  
+
+sopa2.rb:67:in `[]': wrong number of arguments (0 for 1..2) (ArgumentError)
+	from sopa2.rb:67:in `vertical_d'
+	from sopa2.rb:126:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:67: syntax error, unexpected ',', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+    p @@tablero[:, 0]
+                  ^
+sopa2.rb:126: syntax error, unexpected end-of-input, expecting keyword_end
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:67: syntax error, unexpected ':', expecting ']'
+    p @@tablero[: ,0]
+                 ^
+sopa2.rb:126: syntax error, unexpected end-of-input, expecting keyword_end
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:67: syntax error, unexpected ',', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+    p @@tablero[:, 3]
+                  ^
+sopa2.rb:126: syntax error, unexpected end-of-input, expecting keyword_end
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby prueba_array.rb
+prueba_array.rb:7: syntax error, unexpected ']', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+prueba_array.rb:8: syntax error, unexpected ',', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+p a[:, 3]
+      ^
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby prueba_array.rb
+prueba_array.rb:7: syntax error, unexpected ']', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+prueba_array.rb:8: syntax error, unexpected ',', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+p a[:, 3]
+      ^
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  o x o  |
+|  o x o  |
+|  x o x  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  x x o  |
+|  x x o  |
+|  o x o  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  x o x  |
+|  x o o  |
+|  o o x  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  x x o  |
+|  x o o  |
+|  o x x  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  o x x  |
+|  x o o  |
+|  x x o  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  o o x  |
+|  o x o  |
+|  x x o  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  o x o  |
+|  o x x  |
+|  o o x  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  x x o  |
+|  x o o  |
+|  x x o  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby gato.rb
+|  o x x  |
+|  o o x  |
+|  o o x  |
+[{"Nombre"=>"Rodrigo García", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[9, 9, 7, 6, 8]}, {"Nombre"=>"Fernanda Gonzalez", "Edad"=>12, "Genero"=>"Femenino", "Grupo"=>"Tercero", "Calificaciones"=>[6, 9, 8, 6, 8]}, {"Nombre"=>"Luis Perez", "Edad"=>13, "Genero"=>"Masculino", "Grupo"=>"Primero", "Calificaciones"=>[8, 7, 7, 9, 8]}, {"Nombre"=>"Ana Espinosa", "Edad"=>14, "Genero"=>"Femenino", "Grupo"=>"Segundo", "Calificaciones"=>[9, 9, 6, 8, 8]}, {"Nombre"=>"Pablo Moran", "Edad"=>11, "Genero"=>"Masculino", "Grupo"=>"Segundo", "Calificaciones"=>[7, 8, 9, 9, 8]}]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ cear
+-bash: cear: command not found
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ H  C  K  K  F 
+ I  A  S  T  S 
+ F  N  R  A  A 
+ K  C  M  H  D 
+ W  I  N  Z  N 
+ R  O  A  D  O 
+ G  N  I  H  R 
+  
+
+[["P", "H", "I", "F", "K", "W", "R", "G"], ["O", "C", "A", "N", "C", "I", "O", "N"], ["E", "K", "S", "R", "M", "N", "A", "I"], ["M", "K", "T", "A", "H", "Z", "D", "H"], ["A", "F", "S", "A", "D", "N", "O", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+sopa2.rb:126: syntax error, unexpected end-of-input, expecting keyword_end
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ D  C  J  B  U 
+ U  A  P  R  S 
+ T  N  Z  A  A 
+ V  C  M  M  D 
+ Z  I  S  W  N 
+ R  O  E  A  O 
+ R  N  S  Z  R 
+  
+
+[["P", "D", "U", "T", "V", "Z", "R", "R"], ["O", "C", "A", "N", "C", "I", "O", "N"], ["E", "J", "P", "Z", "M", "S", "E", "S"], ["M", "B", "R", "A", "M", "W", "A", "Z"], ["A", "U", "S", "A", "D", "N", "O", "R"]]
+5
+5
+5
+5
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ J  C  B  V  N 
+ H  A  C  L  S 
+ V  N  N  A  A 
+ C  C  M  K  D 
+ I  I  N  G  N 
+ R  O  T  J  O 
+ H  N  M  E  R 
+  
+
+sopa2.rb:74:in `block (2 levels) in vertical_d': undefined local variable or method `filas' for #<Board:0x007ff2ac12b168> (NameError)
+	from sopa2.rb:70:in `each'
+	from sopa2.rb:70:in `block in vertical_d'
+	from sopa2.rb:68:in `each'
+	from sopa2.rb:68:in `vertical_d'
+	from sopa2.rb:127:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ C  C  N  W  Y 
+ R  A  F  G  S 
+ Q  N  Y  A  A 
+ Z  C  M  V  D 
+ N  I  H  K  N 
+ R  O  C  N  O 
+ E  N  B  R  R 
+  
+
+[["*", "*", "*", "*", "*"], ["C", "C", "N", "W", "Y"], ["R", "A", "F", "G", "S"], ["Q", "N", "Y", "A", "A"], ["Z", "C", "M", "V", "D"], ["N", "I", "H", "K", "N"], ["R", "O", "C", "N", "O"], ["E", "N", "B", "R", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ N  C  A  C  I 
+ H  A  Z  I  S 
+ I  N  Z  A  A 
+ B  C  M  B  D 
+ M  I  H  F  N 
+ R  O  W  U  O 
+ J  N  L  M  R 
+  
+
+[[nil, nil, nil, nil, nil], ["O", "*", "*", "*", "*", "*", "*", "*"], ["E", "A", "Z", "Z", "M", "H", "W", "L"], ["M", "C", "I", "A", "B", "F", "U", "M"], ["A", "I", "S", "A", "D", "N", "O", "R"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ D  C  K  M  E 
+ U  A  E  E  S 
+ H  N  S  A  A 
+ S  C  M  J  D 
+ R  I  O  Q  N 
+ R  O  H  L  O 
+ A  N  O  C  R 
+  
+
+[[nil, nil, nil, nil, nil, nil, nil, nil], ["O", "*", "*", "*", "*", "*", "*", "*"], ["E", "K", "E", "S", "M", "O", "H", "O"], ["M", "M", "E", "A", "J", "Q", "L", "C"], ["A", "E", "S", "A", "D", "N", "O", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ C  C  W  M  N 
+ Z  A  T  Y  S 
+ I  N  K  A  A 
+ K  C  M  O  D 
+ D  I  A  E  N 
+ R  O  F  G  O 
+ A  N  N  R  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ V  C  F  E  N 
+ W  A  V  S  S 
+ Q  N  I  A  A 
+ V  C  M  H  D 
+ W  I  C  M  N 
+ R  O  E  T  O 
+ W  N  I  B  R 
+  
+
+[["P", "O", "E", "M", "A"], ["V", "C", "F", "E", "N"], ["W", "A", "V", "S", "S"], ["Q", "N", "I", "A", "A"], ["V", "C", "M", "H", "D"], ["W", "I", "C", "M", "N"], ["R", "O", "E", "T", "O"], ["W", "N", "I", "B", "R"]]
+[[nil, "O", "E", "M", "A"], [nil, "*", "F", "E", "N"], [nil, "*", "V", "S", "S"], [nil, "*", "I", "A", "A"], [nil, "*", "M", "H", "D"], [nil, "*", "C", "M", "N"], [nil, "*", "E", "T", "O"], [nil, "*", "I", "B", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clearç
+-bash: clearç: command not found
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Q  C  N  V  T 
+ Z  A  D  O  S 
+ J  N  F  A  A 
+ P  C  M  F  D 
+ M  I  Z  S  N 
+ R  O  Q  A  O 
+ V  N  O  E  R 
+  
+
+[["P", "O", "E", "M", "A"], ["Q", "C", "N", "V", "T"], ["Z", "A", "D", "O", "S"], ["J", "N", "F", "A", "A"], ["P", "C", "M", "F", "D"], ["M", "I", "Z", "S", "N"], ["R", "O", "Q", "A", "O"], ["V", "N", "O", "E", "R"]]
+[["P", "O", "E", "M", "A"], ["Q", "*", "N", "V", "T"], ["Z", "*", "D", "O", "S"], ["J", "*", "F", "A", "A"], ["P", "*", "M", "F", "D"], ["M", "*", "Z", "S", "N"], ["R", "*", "Q", "A", "O"], ["V", "*", "O", "E", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  I  G  H 
+ F  A  R  S  S 
+ M  N  Z  A  A 
+ P  C  M  H  D 
+ T  I  L  H  N 
+ R  O  S  M  O 
+ O  N  R  E  R 
+  
+
+[["*", "*", "*", "*", "*"], ["O", "C", "I", "G", "H"], ["F", "A", "R", "S", "S"], ["M", "N", "Z", "A", "A"], ["P", "C", "M", "H", "D"], ["T", "I", "L", "H", "N"], ["R", "O", "S", "M", "O"], ["O", "N", "R", "E", "R"]]
+[["P", "O", "E", "M", "A"], ["O", "C", "I", "G", "H"], ["F", "A", "R", "S", "S"], ["M", "N", "Z", "A", "A"], ["P", "C", "M", "H", "D"], ["T", "I", "L", "H", "N"], ["R", "O", "S", "M", "O"], ["O", "N", "R", "E", "R"]]
+[["P", "O", "E", "M", "A"], ["O", "*", "I", "G", "H"], ["F", "*", "R", "S", "S"], ["M", "*", "Z", "A", "A"], ["P", "*", "M", "H", "D"], ["T", "*", "L", "H", "N"], ["R", "*", "S", "M", "O"], ["O", "*", "R", "E", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ U  C  E  K  L 
+ D  A  A  S  S 
+ F  N  R  A  A 
+ Z  C  M  E  D 
+ L  I  N  C  N 
+ R  O  K  A  O 
+ Y  N  H  U  R 
+  
+
+[["*", "*", "*", "*", "*"], ["U", "C", "E", "K", "L"], ["D", "A", "A", "S", "S"], ["F", "N", "R", "A", "A"], ["Z", "C", "M", "E", "D"], ["L", "I", "N", "C", "N"], ["R", "O", "K", "A", "O"], ["Y", "N", "H", "U", "R"]]
+[["P", "O", "E", "M", "A"], ["U", "C", "E", "K", "L"], ["D", "A", "A", "S", "S"], ["F", "N", "R", "A", "A"], ["Z", "C", "M", "E", "D"], ["L", "I", "N", "C", "N"], ["R", "O", "K", "A", "O"], ["Y", "N", "H", "U", "R"]]
+[["P", "O", "E", "M", "A"], ["U", "*", "E", "K", "L"], ["D", "*", "A", "S", "S"], ["F", "*", "R", "A", "A"], ["Z", "*", "M", "E", "D"], ["L", "*", "N", "C", "N"], ["R", "*", "K", "A", "O"], ["Y", "*", "H", "U", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ O  C  A  J  R 
+ O  A  M  L  S 
+ H  N  A  A  A 
+ O  C  M  P  D 
+ T  I  A  A  N 
+ R  O  A  P  O 
+ G  N  E  S  R 
+  
+
+[["*", "*", "*", "*", "*"], ["O", "C", "A", "J", "R"], ["O", "A", "M", "L", "S"], ["H", "N", "A", "A", "A"], ["O", "C", "M", "P", "D"], ["T", "I", "A", "A", "N"], ["R", "O", "A", "P", "O"], ["G", "N", "E", "S", "R"]]
+[["P", "O", "E", "M", "A"], ["O", "C", "A", "J", "R"], ["O", "A", "M", "L", "S"], ["H", "N", "A", "A", "A"], ["O", "C", "M", "P", "D"], ["T", "I", "A", "A", "N"], ["R", "O", "A", "P", "O"], ["G", "N", "E", "S", "R"]]
+[["P", "O", "E", "M", "A"], ["O", "*", "A", "J", "R"], ["O", "*", "M", "L", "S"], ["H", "*", "A", "A", "A"], ["O", "*", "M", "P", "D"], ["T", "*", "A", "A", "N"], ["R", "*", "A", "P", "O"], ["G", "*", "E", "S", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ N  C  K  C  D 
+ B  A  R  Q  S 
+ S  N  S  A  A 
+ O  C  M  J  D 
+ P  I  B  E  N 
+ R  O  H  I  O 
+ T  N  A  E  R 
+  
+
+[["*", "*", "*", "*", "*"], ["N", "C", "K", "C", "D"], ["B", "A", "R", "Q", "S"], ["S", "N", "S", "A", "A"], ["O", "C", "M", "J", "D"], ["P", "I", "B", "E", "N"], ["R", "O", "H", "I", "O"], ["T", "N", "A", "E", "R"]]
+[["P", "O", "E", "M", "A"], ["N", "C", "K", "C", "D"], ["B", "A", "R", "Q", "S"], ["S", "N", "S", "A", "A"], ["O", "C", "M", "J", "D"], ["P", "I", "B", "E", "N"], ["R", "O", "H", "I", "O"], ["T", "N", "A", "E", "R"]]
+[["P", "O", "E", "M", "A"], ["N", "*", "K", "C", "D"], ["B", "*", "R", "Q", "S"], ["S", "*", "S", "A", "A"], ["O", "*", "M", "J", "D"], ["P", "*", "B", "E", "N"], ["R", "*", "H", "I", "O"], ["T", "*", "A", "E", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ V  C  N  S  M 
+ W  A  S  S  S 
+ S  N  Q  A  A 
+ M  C  M  V  D 
+ H  I  S  W  N 
+ R  O  E  K  O 
+ G  N  K  N  R 
+  
+
+[["*", "*", "*", "*", "*"], ["V", "C", "N", "S", "M"], ["W", "A", "S", "S", "S"], ["S", "N", "Q", "A", "A"], ["M", "C", "M", "V", "D"], ["H", "I", "S", "W", "N"], ["R", "O", "E", "K", "O"], ["G", "N", "K", "N", "R"]]
+[["P", "O", "E", "M", "A"], ["V", "C", "N", "S", "M"], ["W", "A", "S", "S", "S"], ["S", "N", "Q", "A", "A"], ["M", "C", "M", "V", "D"], ["H", "I", "S", "W", "N"], ["R", "O", "E", "K", "O"], ["G", "N", "K", "N", "R"]]
+[["P", "O", "E", "M", "A"], ["V", "*", "N", "S", "M"], ["W", "*", "S", "S", "S"], ["S", "*", "Q", "A", "A"], ["M", "*", "M", "V", "D"], ["H", "*", "S", "W", "N"], ["R", "*", "E", "K", "O"], ["G", "*", "K", "N", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ L  C  Q  W  A 
+ L  A  H  F  S 
+ U  N  D  A  A 
+ U  C  M  Y  D 
+ S  I  R  V  N 
+ R  O  J  K  O 
+ W  N  M  U  R 
+  
+
+[["*", "*", "*", "*", "*"], ["L", "C", "Q", "W", "A"], ["L", "A", "H", "F", "S"], ["U", "N", "D", "A", "A"], ["U", "C", "M", "Y", "D"], ["S", "I", "R", "V", "N"], ["R", "O", "J", "K", "O"], ["W", "N", "M", "U", "R"]]
+[["P", "O", "E", "M", "A"], ["L", "C", "Q", "W", "A"], ["L", "A", "H", "F", "S"], ["U", "N", "D", "A", "A"], ["U", "C", "M", "Y", "D"], ["S", "I", "R", "V", "N"], ["R", "O", "J", "K", "O"], ["W", "N", "M", "U", "R"]]
+[["P", "O", "E", "M", "A"], ["L", "*", "Q", "W", "A"], ["L", "*", "H", "F", "S"], ["U", "*", "D", "A", "A"], ["U", "*", "M", "Y", "D"], ["S", "*", "R", "V", "N"], ["R", "*", "J", "K", "O"], ["W", "*", "M", "U", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ Z  C  U  F  F 
+ Q  A  N  J  S 
+ Z  N  L  A  A 
+ K  C  M  G  D 
+ R  I  B  F  N 
+ R  O  K  Z  O 
+ B  N  I  Y  R 
+  
+
+[["*", "*", "*", "*", "*"], ["Z", "C", "U", "F", "F"], ["Q", "A", "N", "J", "S"], ["Z", "N", "L", "A", "A"], ["K", "C", "M", "G", "D"], ["R", "I", "B", "F", "N"], ["R", "O", "K", "Z", "O"], ["B", "N", "I", "Y", "R"]]
+[["P", "O", "E", "M", "A"], ["Z", "C", "U", "F", "F"], ["Q", "A", "N", "J", "S"], ["Z", "N", "L", "A", "A"], ["K", "C", "M", "G", "D"], ["R", "I", "B", "F", "N"], ["R", "O", "K", "Z", "O"], ["B", "N", "I", "Y", "R"]]
+[["P", "O", "E", "M", "A"], ["Z", "*", "U", "F", "F"], ["Q", "*", "N", "J", "S"], ["Z", "*", "L", "A", "A"], ["K", "*", "M", "G", "D"], ["R", "*", "B", "F", "N"], ["R", "*", "K", "Z", "O"], ["B", "*", "I", "Y", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ C  C  C  P  A 
+ O  A  S  I  S 
+ U  N  N  A  A 
+ V  C  M  B  D 
+ K  I  J  Z  N 
+ R  O  S  W  O 
+ V  N  B  Z  R 
+  
+
+[["*", "*", "*", "*", "*"], ["C", "C", "C", "P", "A"], ["O", "A", "S", "I", "S"], ["U", "N", "N", "A", "A"], ["V", "C", "M", "B", "D"], ["K", "I", "J", "Z", "N"], ["R", "O", "S", "W", "O"], ["V", "N", "B", "Z", "R"]]
+[["P", "O", "E", "M", "A"], ["C", "C", "C", "P", "A"], ["O", "A", "S", "I", "S"], ["U", "N", "N", "A", "A"], ["V", "C", "M", "B", "D"], ["K", "I", "J", "Z", "N"], ["R", "O", "S", "W", "O"], ["V", "N", "B", "Z", "R"]]
+[["P", "O", "E", "M", "A"], ["C", "*", "C", "P", "A"], ["O", "*", "S", "I", "S"], ["U", "*", "N", "A", "A"], ["V", "*", "M", "B", "D"], ["K", "*", "J", "Z", "N"], ["R", "*", "S", "W", "O"], ["V", "*", "B", "Z", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ T  C  A  T  F 
+ D  A  L  P  S 
+ O  N  H  A  A 
+ N  C  M  Q  D 
+ P  I  U  F  N 
+ R  O  O  D  O 
+ Y  N  L  S  R 
+  
+
+[["*", "*", "*", "*", "*"], ["T", "C", "A", "T", "F"], ["D", "A", "L", "P", "S"], ["O", "N", "H", "A", "A"], ["N", "C", "M", "Q", "D"], ["P", "I", "U", "F", "N"], ["R", "O", "O", "D", "O"], ["Y", "N", "L", "S", "R"]]
+[["P", "O", "E", "M", "A"], ["T", "C", "A", "T", "F"], ["D", "A", "L", "P", "S"], ["O", "N", "H", "A", "A"], ["N", "C", "M", "Q", "D"], ["P", "I", "U", "F", "N"], ["R", "O", "O", "D", "O"], ["Y", "N", "L", "S", "R"]]
+[["P", "O", "E", "M", "A"], ["T", "*", "A", "T", "F"], ["D", "*", "L", "P", "S"], ["O", "*", "H", "A", "A"], ["N", "*", "M", "Q", "D"], ["P", "*", "U", "F", "N"], ["R", "*", "O", "D", "O"], ["Y", "*", "L", "S", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ N  C  S  J  R 
+ K  A  V  C  S 
+ D  N  W  A  A 
+ B  C  M  T  D 
+ H  I  I  U  N 
+ R  O  K  E  O 
+ I  N  G  M  R 
+  
+
+[["*", "*", "*", "*", "*"], ["N", "C", "S", "J", "R"], ["K", "A", "V", "C", "S"], ["D", "N", "W", "A", "A"], ["B", "C", "M", "T", "D"], ["H", "I", "I", "U", "N"], ["R", "O", "K", "E", "O"], ["I", "N", "G", "M", "R"]]
+[["P", "O", "E", "M", "A"], ["N", "C", "S", "J", "R"], ["K", "A", "V", "C", "S"], ["D", "N", "W", "A", "A"], ["B", "C", "M", "T", "D"], ["H", "I", "I", "U", "N"], ["R", "O", "K", "E", "O"], ["I", "N", "G", "M", "R"]]
+[["P", "O", "E", "M", "A"], ["N", "*", "S", "J", "R"], ["K", "*", "V", "C", "S"], ["D", "*", "W", "A", "A"], ["B", "*", "M", "T", "D"], ["H", "*", "I", "U", "N"], ["R", "*", "K", "E", "O"], ["I", "*", "G", "M", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa2.rb
+
+ P  O  E  M  A 
+ W  C  Z  J  H 
+ D  A  U  P  S 
+ S  N  C  A  A 
+ S  C  M  U  D 
+ T  I  M  N  N 
+ R  O  B  Z  O 
+ E  N  A  Y  R 
+  
+
+[["*", "*", "*", "*", "*"], ["W", "C", "Z", "J", "H"], ["D", "A", "U", "P", "S"], ["S", "N", "C", "A", "A"], ["S", "C", "M", "U", "D"], ["T", "I", "M", "N", "N"], ["R", "O", "B", "Z", "O"], ["E", "N", "A", "Y", "R"]]
+[["P", "O", "E", "M", "A"], ["W", "C", "Z", "J", "H"], ["D", "A", "U", "P", "S"], ["S", "N", "C", "A", "A"], ["S", "C", "M", "U", "D"], ["T", "I", "M", "N", "N"], ["R", "O", "B", "Z", "O"], ["E", "N", "A", "Y", "R"]]
+[["P", "O", "E", "M", "A"], ["W", "*", "Z", "J", "H"], ["D", "*", "U", "P", "S"], ["S", "*", "C", "A", "A"], ["S", "*", "M", "U", "D"], ["T", "*", "M", "N", "N"], ["R", "*", "B", "Z", "O"], ["E", "*", "A", "Y", "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ Q  C  R  O  U 
+ Q  A  M  K  S 
+ A  N  G  A  A 
+ M  C  M  V  D 
+ I  I  B  Z  N 
+ R  O  Z  R  O 
+ O  N  G  F  R 
+  
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ F  C  E  G  K 
+ J  A  V  O  S 
+ C  N  F  A  A 
+ A  C  M  V  D 
+ H  I  C  I  N 
+ R  O  J  I  O 
+ H  N  M  Z  R 
+  
+
+[["*", "O", "*", "*", "*"], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ O  C  Z  G  N 
+ I  A  Q  R  S 
+ W  N  H  A  A 
+ Y  C  M  O  D 
+ G  I  K  L  N 
+ R  O  U  H  O 
+ L  N  J  K  R 
+  
+
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ I  C  Z  V  A 
+ A  A  J  Q  S 
+ A  N  O  A  A 
+ N  C  M  T  D 
+ Q  I  V  W  N 
+ R  O  V  H  O 
+ C  N  Z  C  R 
+  
+
+0
+[["P", "O", "E", "M", "A"], ["I", "C", "Z", "V", "A"], ["A", "A", "J", "Q", "S"], ["A", "N", "O", "A", "A"], ["N", "C", "M", "T", "D"], ["Q", "I", "V", "W", "N"], ["R", "O", "V", "H", "O"], ["C", "N", "Z", "C", "R"]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+1
+[["P", "O", "E", "M", "A"], ["I", "C", "Z", "V", "A"], ["A", "A", "J", "Q", "S"], ["A", "N", "O", "A", "A"], ["N", "C", "M", "T", "D"], ["Q", "I", "V", "W", "N"], ["R", "O", "V", "H", "O"], ["C", "N", "Z", "C", "R"]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+2
+[["P", "O", "E", "M", "A"], ["I", "C", "Z", "V", "A"], ["A", "A", "J", "Q", "S"], ["A", "N", "O", "A", "A"], ["N", "C", "M", "T", "D"], ["Q", "I", "V", "W", "N"], ["R", "O", "V", "H", "O"], ["C", "N", "Z", "C", "R"]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+3
+[["P", "O", "E", "M", "A"], ["I", "C", "Z", "V", "A"], ["A", "A", "J", "Q", "S"], ["A", "N", "O", "A", "A"], ["N", "C", "M", "T", "D"], ["Q", "I", "V", "W", "N"], ["R", "O", "V", "H", "O"], ["C", "N", "Z", "C", "R"]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ E  C  Q  N  A 
+ Y  A  F  O  S 
+ D  N  S  A  A 
+ C  C  M  O  D 
+ C  I  W  H  N 
+ R  O  R  M  O 
+ V  N  A  R  R 
+  
+
+0
+[["P", "O", "E", "M", "A"], ["E", "C", "Q", "N", "A"], ["Y", "A", "F", "O", "S"], ["D", "N", "S", "A", "A"], ["C", "C", "M", "O", "D"], ["C", "I", "W", "H", "N"], ["R", "O", "R", "M", "O"], ["V", "N", "A", "R", "R"]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+1
+[["P", "O", "E", "M", "A"], ["E", "C", "Q", "N", "A"], ["Y", "A", "F", "O", "S"], ["D", "N", "S", "A", "A"], ["C", "C", "M", "O", "D"], ["C", "I", "W", "H", "N"], ["R", "O", "R", "M", "O"], ["V", "N", "A", "R", "R"]]
+[["*", "*", "*", "*", "*"], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil], [nil, nil, nil, nil, nil]]
+2
+[["P", "O", "E", "M", "A"], ["E", "C", "Q", "N", "A"], ["Y", "A", "F", "O", "S"], ["D", "N", "S", "A", "A"], ["C", "C", "M", "O", "D"], ["C", "I", "W", "H", "N"], ["R", "O", "R", "M", "O"], ["V", "N", "A", "R", "R"]]
+[["*", "O", "*", "*", "*"], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil]]
+3
+[["P", "O", "E", "M", "A"], ["E", "C", "Q", "N", "A"], ["Y", "A", "F", "O", "S"], ["D", "N", "S", "A", "A"], ["C", "C", "M", "O", "D"], ["C", "I", "W", "H", "N"], ["R", "O", "R", "M", "O"], ["V", "N", "A", "R", "R"]]
+[["*", "O", "*", "*", "*"], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil]]
+[["*", "O", "*", "*", "*"], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ Y  C  A  B  K 
+ I  A  O  Q  S 
+ Y  N  Z  A  A 
+ S  C  M  T  D 
+ E  I  U  Z  N 
+ R  O  U  U  O 
+ K  N  K  H  R 
+  
+
+[["P", "O", "*", "*", "*"], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ F  C  J  Q  M 
+ G  A  Q  D  S 
+ J  N  K  A  A 
+ I  C  M  J  D 
+ W  I  A  E  N 
+ R  O  H  P  O 
+ Y  N  A  C  R 
+  
+
+[["*", "O", "*", "*", "*"], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil], [nil, "*", nil, nil, nil]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ W  C  W  M  H 
+ Y  A  Y  L  S 
+ K  N  D  A  A 
+ T  C  M  Q  D 
+ H  I  R  A  N 
+ R  O  A  Q  O 
+ V  N  G  S  R 
+  
+
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "H"], [nil, "*", nil, nil, "S"], [nil, "*", nil, nil, "A"], [nil, "*", nil, nil, "D"], [nil, "*", nil, nil, "N"], [nil, "*", nil, nil, "O"], [nil, "*", nil, nil, "R"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ D  C  T  W  M 
+ J  A  P  W  S 
+ S  N  P  A  A 
+ O  C  M  E  D 
+ B  I  M  B  N 
+ R  O  M  Y  O 
+ S  N  O  S  R 
+  
+
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "M"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ D  C  A  K  H 
+ Y  A  B  A  S 
+ I  N  U  A  A 
+ R  C  M  P  D 
+ R  I  G  Z  N 
+ R  O  C  Z  O 
+ M  N  M  S  R 
+  
+
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "H"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+["", "", "", "RIMAS"]
+nil
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ A  C  A  J  O 
+ B  A  C  P  S 
+ Q  N  H  A  A 
+ I  C  M  E  D 
+ M  I  M  L  N 
+ R  O  L  D  O 
+ O  N  I  R  R 
+  
+
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "O"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+["", "", "", "RIMAS"]
+nil
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ W  C  T  Q  J 
+ K  A  C  O  S 
+ E  N  G  A  A 
+ V  C  M  R  D 
+ R  I  L  F  N 
+ R  O  T  C  O 
+ G  N  P  K  R 
+  
+
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "J"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+["", "", "", "RIMAS"]
+["", "", "", "R"]
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ R  C  R  W  I 
+ W  A  V  A  S 
+ Z  N  C  A  A 
+ I  C  M  I  D 
+ V  I  I  H  N 
+ R  O  W  P  O 
+ O  N  D  I  R 
+  
+
+sopa3.rb:51:in `diagonal_1': wrong number of arguments (1 for 0) (ArgumentError)
+	from sopa3.rb:40:in `block (2 levels) in resolver'
+	from sopa3.rb:30:in `each'
+	from sopa3.rb:30:in `block in resolver'
+	from sopa3.rb:28:in `each'
+	from sopa3.rb:28:in `resolver'
+	from sopa3.rb:171:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ K  C  S  K  Z 
+ U  A  B  F  S 
+ U  N  N  A  A 
+ P  C  M  P  D 
+ E  I  O  B  N 
+ R  O  Q  A  O 
+ W  N  I  N  R 
+  
+
+"POEMA"
+5
+"CANCION"
+7
+"RONDAS"
+6
+"RIMAS"
+5
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "Z"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ E  C  I  O  K 
+ U  A  F  E  S 
+ Q  N  U  A  A 
+ A  C  M  C  D 
+ W  I  U  Q  N 
+ R  O  I  F  O 
+ G  N  K  I  R 
+  
+
+"POEMA"
+5
+8
+"CANCION"
+7
+8
+"RONDAS"
+6
+8
+"RIMAS"
+5
+8
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "K"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ F  C  D  R  P 
+ Z  A  R  Y  S 
+ T  N  T  A  A 
+ Y  C  M  M  D 
+ B  I  P  M  N 
+ R  O  B  S  O 
+ G  N  S  A  R 
+  
+
+["CANCION", "RONDAS", "RIMAS"]
+["", "CANCION", "RONDAS", "RIMAS"]
+sopa3.rb:59:in `index': type mismatch: Array given (TypeError)
+	from sopa3.rb:59:in `block in diagonal_1'
+	from sopa3.rb:58:in `each'
+	from sopa3.rb:58:in `diagonal_1'
+	from sopa3.rb:40:in `block (2 levels) in resolver'
+	from sopa3.rb:30:in `each'
+	from sopa3.rb:30:in `block in resolver'
+	from sopa3.rb:28:in `each'
+	from sopa3.rb:28:in `resolver'
+	from sopa3.rb:175:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ R  C  W  K  T 
+ R  A  F  O  S 
+ B  N  Y  A  A 
+ D  C  M  L  D 
+ D  I  G  R  N 
+ R  O  U  B  O 
+ T  N  M  D  R 
+  
+
+["CANCION", "RONDAS", "RIMAS"]
+["", "CANCION", "RONDAS", "RIMAS"]
+["RONDAS", "RIMAS"]
+["", "", "RONDAS", "RIMAS"]
+["RIMAS"]
+["", "", "", "RIMAS"]
+["RIMAS"]
+["", "", "", "RIMAS"]
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "T"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ Q  C  O  E  Q 
+ C  A  S  H  S 
+ U  N  P  A  A 
+ Y  C  M  T  D 
+ W  I  O  T  N 
+ R  O  D  Z  O 
+ A  N  W  J  R 
+  
+
+["CANCION", "RONDAS", "RIMAS"]
+["C", "R", "R"]
+["CANCION", "RIMAS"]
+["C", "R"]
+sopa3.rb:66:in `include?': no implicit conversion of nil into String (TypeError)
+	from sopa3.rb:66:in `block in horizontal_di'
+	from sopa3.rb:65:in `each'
+	from sopa3.rb:65:in `horizontal_di'
+	from sopa3.rb:32:in `block (2 levels) in resolver'
+	from sopa3.rb:30:in `each'
+	from sopa3.rb:30:in `block in resolver'
+	from sopa3.rb:28:in `each'
+	from sopa3.rb:28:in `resolver'
+	from sopa3.rb:174:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ clear
+
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ C  C  I  A  Z 
+ K  A  F  P  S 
+ V  N  D  A  A 
+ Y  C  M  N  D 
+ I  I  V  E  N 
+ R  O  W  H  O 
+ U  N  E  U  R 
+  
+
+["CANCION", "RONDAS", "RIMAS"]
+["C", "R", "R"]
+["CANCION", "RIMAS"]
+["C", "R"]
+sopa3.rb:63:in `include?': no implicit conversion of nil into String (TypeError)
+	from sopa3.rb:63:in `block in horizontal_di'
+	from sopa3.rb:62:in `each'
+	from sopa3.rb:62:in `horizontal_di'
+	from sopa3.rb:32:in `block (2 levels) in resolver'
+	from sopa3.rb:30:in `each'
+	from sopa3.rb:30:in `block in resolver'
+	from sopa3.rb:28:in `each'
+	from sopa3.rb:28:in `resolver'
+	from sopa3.rb:171:in `<main>'
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
+
+ P  O  E  M  A 
+ G  C  L  V  I 
+ T  A  E  Y  S 
+ B  N  G  A  A 
+ I  C  M  N  D 
+ K  I  K  L  N 
+ R  O  P  F  O 
+ H  N  S  S  R 
+  
+
+[["*", "O", "*", "*", "A"], [nil, "*", nil, nil, "I"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"], [nil, "*", nil, nil, "*"]]
+"\n"
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby prueba_array.rb
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby prueba_array.rb
+2
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby prueba_array.rb
+2
+CodeaCamp05s-Mac-mini:jueves codea_mac_05$ ruby sopa3.rb
